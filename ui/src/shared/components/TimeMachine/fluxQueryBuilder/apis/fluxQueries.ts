@@ -32,7 +32,7 @@ export interface FindKeysOptions {
   tagsSelections: BuilderTagsType[]
   searchTerm?: string
   timeRange?: TimeRange
-  limit?: number
+  limit: number
 }
 
 export interface TruncatedResult<T> {
