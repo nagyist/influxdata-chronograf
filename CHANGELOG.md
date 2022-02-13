@@ -2,6 +2,8 @@
 
 ### Features
 
+1. [#5861](https://github.com/influxdata/chronograf/pull/5861): Allow to load truncated data in Flux Query Builder.
+
 ### Bug Fixes
 
 1. [#5862](https://github.com/influxdata/chronograf/pull/5862): Respect BASE_PATH when serving API docs.
