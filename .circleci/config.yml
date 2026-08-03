@@ -280,6 +280,8 @@ jobs:
   packages-upload-signatures:
     docker:
       - image: cimg/python:3.12.3
+    environment:
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
     steps:
       - attach_workspace:
           at: /tmp/workspace
